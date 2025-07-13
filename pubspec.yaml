@@ -1,0 +1,108 @@
+name: moodie_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.26.0
+  firebase_auth: ^4.17.7
+  cloud_firestore: ^4.15.5
+  gif_view: ^1.0.2
+  http: ^1.3.0
+  flutter_dotenv: ^5.2.1
+  uuid: ^4.3.3
+  intl: ^0.18.1
+  flutter_svg: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/img1.png
+    - assets/images/img2.png
+    - assets/images/img3.png
+    - assets/images/img4.png
+    - assets/images/personal-growth.svg
+    - assets/images/growth2.svg
+    - assets/icons/icon-google.png
+    - assets/icons/icon-github.png
+    - assets/icons/icon-apple.png
+    - assets/icons/arrow-left.svg
+    - assets/icons/cloud-rain-light.svg
+    - assets/icons/cloud-sun-light.svg
+    - assets/icons/head-circuit-light.svg
+    - assets/icons/leaf-light.svg
+    - assets/icons/Vector.svg
+    - assets/icons/fire-light.svg
+    - assets/icons/chatbubble.svg
+    - assets/icons/plus.svg
+    - assets/icons/close-sidebar.svg
+    - assets/icons/Trash.svg
+    - assets/icons/arrow-left.svg
+    - assets/images/robot.svg
+    - assets/images/meditation.svg
+    - assets/images/writing.svg
+    - assets/images/prompt.svg
+    - assets/images/mood.svg
+    - assets/images/serene.svg
+    - assets/images/relaxing-at-home.svg
+    - assets/gifs/bad.gif
+    - assets/gifs/good.gif
+    - assets/gifs/great.gif
+    - assets/gifs/neutral-face.gif
+    - assets/gifs/pouting-face.gif
+    - assets/fonts/General Sans/GeneralSans-Bold.otf
+    - assets/fonts/Playpen/PlaypenSans-Bold.ttf
+    - assets/fonts/quicksand/Quicksand_Bold.otf
+
+  fonts:
+    - family: General Sans
+      fonts:
+        - asset: assets/fonts/General Sans/GeneralSans-Bold.otf
+        - asset: assets/fonts/General Sans/GeneralSans-BoldItalic.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Extralight.otf
+        - asset: assets/fonts/General Sans/GeneralSans-ExtralightItalic.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Italic.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Light.otf
+        - asset: assets/fonts/General Sans/GeneralSans-LightItalic.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Medium.otf
+        - asset: assets/fonts/General Sans/GeneralSans-MediumItalic.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Regular.otf
+        - asset: assets/fonts/General Sans/GeneralSans-Semibold.otf
+        - asset: assets/fonts/General Sans/GeneralSans-SemiboldItalic.otf
+    - family: Playpen
+      fonts:
+        - asset: assets/fonts/Playpen/PlaypenSans-Bold.ttf
+        - asset: assets/fonts/Playpen/PlaypenSans-Light.ttf
+        - asset: assets/fonts/Playpen/PlaypenSans-Medium.ttf
+        - asset: assets/fonts/Playpen/PlaypenSans-Regular.ttf
+        - asset: assets/fonts/Playpen/PlaypenSans-SemiBold.ttf
+    - family: quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand_Light.otf
+          weight: 300
+        - asset: assets/fonts/quicksand/Quicksand_Light_Oblique.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/quicksand/Quicksand_Book.otf
+          weight: 400
+        - asset: assets/fonts/quicksand/Quicksand_Book_Oblique.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/quicksand/Quicksand_Bold.otf
+          weight: 700
+        - asset: assets/fonts/quicksand/Quicksand_Bold_Oblique.otf
+          weight: 700
+          style: italic
